@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-06T17:45:02 IST" name="Default suite" finished-at="2022-07-06T17:45:20 IST" duration-ms="17749">
+    <groups>
+    </groups>
+    <test started-at="2022-07-06T17:45:02 IST" name="Default test" finished-at="2022-07-06T17:45:20 IST" duration-ms="17749">
+      <class name="ToolsQA.textBox">
+        <test-method is-config="true" signature="browserProperties()[pri:0, instance:ToolsQA.textBox@29215f06]" started-at="2022-07-06T17:45:02 IST" name="browserProperties" finished-at="2022-07-06T17:45:08 IST" duration-ms="6466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserProperties -->
+        <test-method signature="fillingTextBox()[pri:0, instance:ToolsQA.textBox@29215f06]" started-at="2022-07-06T17:45:08 IST" name="fillingTextBox" finished-at="2022-07-06T17:45:19 IST" duration-ms="10711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillingTextBox -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:ToolsQA.textBox@29215f06]" started-at="2022-07-06T17:45:19 IST" name="browserQuit" finished-at="2022-07-06T17:45:20 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- ToolsQA.textBox -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
