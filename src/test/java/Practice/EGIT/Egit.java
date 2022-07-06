@@ -6,6 +6,7 @@ public class Egit {
 		
 	System.out.println("Hello World Using EGIT Tool");
 	System.out.println("Himalaya created you");
+	System.out.println("Himalaya created you");
 
 	}
 
