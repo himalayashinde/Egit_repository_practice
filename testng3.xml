@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+	<parameter name="URL" value="https://rahulshettyacademy.com/"></parameter>
+
+	<test name="HomeLoan">
+	<parameter name="URL" value="https://homeloan.com"></parameter>
+		<classes>
+			<class name="Learning.Selenium.day1" />
+		</classes>
+
+	</test>
+
+	<test name="Regression">
+		<!-- <packages><package name="Learning.Selenium"/></packages>-->
+		<groups>
+			<run>
+				<exclude name="Smoke"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="Learning.Selenium.day2" />
+			<class name="Learning.Selenium.day3" />
+		</classes>
+
+
+	</test>
+
+
+</suite> <!-- Suite -->
