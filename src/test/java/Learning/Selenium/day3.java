@@ -30,7 +30,6 @@ public class day3 {
 	
 	@Test(groups={"Smoke"})
 	public void APILoginPersonalLoan() {
-		System.out.println("APILoginPersonalLoan");
 	}
 	
 	@Test(dependsOnMethods= {"webLoginPersonalLoan"})
@@ -39,7 +38,7 @@ public class day3 {
 	}
 	
 	
-	@Test(dataProvider= "getData")
+	@Test(dataProvider="getData")
 	public void webLoginPersonalLoanDataproviderexample(String uname, String pass) {
 		System.out.println("webLoginPersonalLoanDataproviderexample");
 		System.out.println("Uname="+ uname + " password= "+ pass);

@@ -4,13 +4,13 @@
 	<test name="Personal Loan">
 	<packages><package name="Learning.Selenium"/></packages>
 	
-		<!-- <classes>
+	 <classes>
 			<class name="Learning.Selenium.day1">
 				<methods>
 					<exclude name="MobileLoginCarLoan"></exclude>
 				</methods>
 			</class>
-		</classes>-->
+		</classes>
 	
 	</test>
 	
